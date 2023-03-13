@@ -66,7 +66,7 @@ const completedUser = async(name, contact, email, time, date, id)=>{
              <Navbar />
             <div className="h-full min-h-screen bg-blue-900 text-white flex justify-center items-center flex-col gap-10 overflow-x-auto px-1">
                 <p className="text-3xl uppercase">Pending Clients</p>
-    <table className="border-separate border-spacing-2 border border-slate-500 bg-gray-100 text-blue-900 rounded-lg table-auto text-sm">
+    <table className="border-separate border-spacing-2 border border-slate-500 bg-gray-100 text-blue-900 rounded-lg table-auto text-sm overflow-auto">
         <thead>
             <tr>
             <th className=" p-2 ">Date</th>

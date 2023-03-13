@@ -88,7 +88,7 @@ const deleteUser = async(id)=>{
         <div>
             <Navbar />
             <div className="flex-col lg:flex-row flex justify-evenly items-center h-screen bg-blue-900">
-            <div className="border-2 border-gray-900 bg-white rounded-xl h-72 w-96 p-10 flex gap-1 flex-col">
+            <div className="border-2 border-gray-900 bg-white rounded-xl h-72 w-72 lg:w-96 p-10 flex gap-1 flex-col">
             <p className="text-center font-lg uppercase">Add Authorize User</p>
             <form onSubmit={handleSubmit} className="flex flex-col gap-5">
                 <input type="email" id="email" 
@@ -103,7 +103,7 @@ const deleteUser = async(id)=>{
             </form>
             </div>
             <div>
-            <table className="border-separate border-spacing-2  bg-gray-100 text-blue-900 rounded-lg table-auto text-sm">
+            <table className="border-separate border-spacing-2  bg-gray-100 text-blue-900 rounded-lg table-auto text-sm overflow-auto">
             <thead>
                 <tr>
                 <th className="  p-2 ">Email</th>

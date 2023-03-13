@@ -67,7 +67,7 @@ const undo = async(name, contact, email, time, date, id)=>{
         return(
             <div>
                 <Navbar />
-        <div className="h-full min-h-screen bg-blue-900 text-white flex justify-center items-center flex-col gap-10 w-full min-w-screen">
+        <div className="h-full min-h-screen bg-blue-900 text-white flex justify-center items-center flex-col gap-10 w-full min-w-screen overflow-auto">
                     <p className="text-3xl uppercase">Completed Clients</p>
                     <table className="border-separate border-spacing-2 border border-slate-500 bg-gray-100 text-blue-900 rounded-lg table-auto text-sm">
             <thead>
