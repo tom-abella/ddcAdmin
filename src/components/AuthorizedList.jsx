@@ -35,7 +35,7 @@ export default function AuthorizeduserList(){
                 email: email
             })
             getuserList()
-            window.location.reload();
+
             }catch(err){
                 console.error(err)
         }
